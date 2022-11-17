@@ -33,5 +33,6 @@ Route::put('ubah-data-jenis/{id}',[JenisController::class,'ubahDataJenis']);
 
 Route::get('data-barang',[BarangController::class,'index']);
 Route::post('simpan-data-barang',[BarangController::class,'store']);
+
 Route::delete('hapus-data-barang/{id}',[BarangController::class,'hapusDataBarang']);
 Route::put('ubah-data-barang/{id}',[BarangController::class,'ubahDataBarang']);
